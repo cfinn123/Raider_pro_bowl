@@ -23,10 +23,7 @@ time.sleep(2)
 team_image = "https://imagecomposer.nfl.com/image/fetch/q_80,h_216,w_264,c_fill/https://static.www.nfl.com/image/private/f_auto,q_auto/league/y2saimpyifuahldhzetn"
 
 def voteforposition():
-    # find all of the elements in the html that match the raiders logo
-    # elem_list = driver.find_elements_by_xpath(
-    #     "//img[contains(@src,'https://imagecomposer.nfl.com/image/fetch/q_80,h_216,w_264,"
-    #     "c_fill/https://static.www.nfl.com/image/private/f_auto,q_auto/league/y2saimpyifuahldhzetn')]")
+    # find all of the elements in the html that match the raiders logo (or other team of interest...)
     elem_list = driver.find_elements_by_xpath("//img[contains(@src, '" + team_image + "')]")
     print('player found!')
 
