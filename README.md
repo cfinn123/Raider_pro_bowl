@@ -1,4 +1,4 @@
-# Raider Pro Bowl Voting
+# Raiders Pro Bowl Voting
 
 Preferably used to vote for players belonging to the Las Vegas Raiders!
 
