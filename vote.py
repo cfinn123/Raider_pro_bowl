@@ -20,7 +20,7 @@ driver.get('https://www.nfl.com/pro-bowl/ballot/')
 time.sleep(2)
 
 # change this variable to the url associated with your teams image
-team_image = "https://imagecomposer.nfl.com/image/fetch/q_80,h_216,w_264,c_fill/https://static.www.nfl.com/f_auto,q_auto/league/api/clubs/logos/SEA"
+team_image = "https://imagecomposer.nfl.com/image/fetch/q_80,h_216,w_264,c_fill/https://static.www.nfl.com/image/private/f_auto,q_auto/league/y2saimpyifuahldhzetn"
 
 def voteforposition():
     # find all of the elements in the html that match the raiders logo
