@@ -11,3 +11,10 @@ Video of vote selection in action:
 
 [![](http://img.youtube.com/vi/5JpK1ga6jwI/0.jpg)](http://www.youtube.com/watch?v=5JpK1ga6jwI "Raider Pro Bowl Voting")
 
+
+
+If you would like to buy me a coffee after you are done voting:
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=S9HSUNLH7SPBW&currency_code=USD)
+
+
