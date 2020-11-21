@@ -2,13 +2,8 @@ from selenium import webdriver
 import time
 
 
-cats = ['Offense', 'Defense', 'Special Teams']
-
-o_pos_list = ['QB', 'RB', 'WR', 'FB', 'TE', 'T', 'G', 'C']
-d_pos_list = ['DE', 'DT', 'ILB', 'OLB', 'CB', 'SS', 'FS']
-st_pos_list = ['K', 'LS', 'P', 'RS', 'ST']
-
-pos_dict = {'Offense': o_pos_list, 'Defense': d_pos_list, 'Special Teams': st_pos_list}
+pos_dict = {'Offense': ['QB', 'RB', 'WR', 'FB', 'TE', 'T', 'G', 'C'],
+            'Defense': ['DE', 'DT', 'ILB', 'OLB', 'CB', 'SS', 'FS'], 'Special Teams': ['K', 'LS', 'P', 'RS', 'ST']}
 
 options = webdriver.ChromeOptions()
 # change these 2 line to load your chrome profile and location of the chrome app
