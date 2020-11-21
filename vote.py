@@ -19,12 +19,15 @@ driver.get('https://www.nfl.com/pro-bowl/ballot/')
 # pause for 2 seconds to load the page
 time.sleep(2)
 
+# change this variable to the url associated with your teams image
+team_image = "https://imagecomposer.nfl.com/image/fetch/q_80,h_216,w_264,c_fill/https://static.www.nfl.com/f_auto,q_auto/league/api/clubs/logos/SEA"
 
 def voteforposition():
     # find all of the elements in the html that match the raiders logo
-    elem_list = driver.find_elements_by_xpath(
-        "//img[contains(@src,'https://imagecomposer.nfl.com/image/fetch/q_80,h_216,w_264,"
-        "c_fill/https://static.www.nfl.com/image/private/f_auto,q_auto/league/y2saimpyifuahldhzetn')]")
+    # elem_list = driver.find_elements_by_xpath(
+    #     "//img[contains(@src,'https://imagecomposer.nfl.com/image/fetch/q_80,h_216,w_264,"
+    #     "c_fill/https://static.www.nfl.com/image/private/f_auto,q_auto/league/y2saimpyifuahldhzetn')]")
+    elem_list = driver.find_elements_by_xpath("//img[contains(@src, '" + team_image + "')]")
     print('player found!')
 
     for elem in elem_list:
