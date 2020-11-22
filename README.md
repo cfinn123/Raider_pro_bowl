@@ -13,8 +13,3 @@ Video of vote selection in action:
 
 
 
-If you would like to buy me a coffee after you are done voting:
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=S9HSUNLH7SPBW&currency_code=USD)
-
-
