@@ -6,6 +6,7 @@ Preferably used to vote for players belonging to the Las Vegas Raiders!
 - The script will look for all players with a Raiders image in the html and select that individual.
 - Depending on the speed of your connection, you may want to alter the time.sleep() function in order to give more or less time for the page to load.
 - Can alter the script to insert your teams image and vote for your team of interest.
+- The links pertaining to the images may change over time
 
 Video of vote selection in action:
 
